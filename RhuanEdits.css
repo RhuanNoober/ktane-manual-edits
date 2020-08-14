@@ -1,0 +1,92 @@
+/* Miscelânea */
+a:visited {color: #0000FF;}
+
+/* Texto Colorido */
+span#id_textoAzul {
+	color: #0000FF;
+}
+span#id_textoBranco {
+	color: #999999;
+}
+span#id_textoAmarelo {
+	color: #999900;
+}
+span#id_textoVermelho {
+	color: #FF0000;
+}
+span#id_textoVerde {
+	color: #009900;
+}
+
+/* Tamanhos de Fonte */
+span#id_font35 {font-size: 35px}
+
+/* Botões de Navegação */
+div.c_sumario {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	margin: 20px;
+	margin-left: 60px;
+	padding: 5px;
+	border: ridge 5px #FFFFFF;
+	background-color: #555555;
+}
+button.c_sumario {
+	width: 120px;
+	height: 38px;
+}
+
+/* Fios Complicados */
+object#vennlegend {
+	width: 40%;
+	height: 40%;
+	margin-right: 70px;
+}
+td.c_complicatedTableEspaco {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+/* Fios Sequenciados */
+table.red-table,
+table.blue-table,
+table.black-table {
+	width: 214px;
+}
+table.red-table {
+	background-color: #FFE5E5; /* Vermelho Claro */
+}
+th#id_headerVermelho {
+	background-color: #FF6666; /* Vermelho Médio */
+}
+table.blue-table {
+	background-color: #E5E5FF; /* Azul Claro */
+}
+th#id_headerAzul {
+	background-color: #6666FF; /* Azul Médio */
+}
+table.black-table {
+	background-color: #E5E5E5; /* Preto Claro */
+}
+th#id_headerPreto {
+	background-color: #666666; /* Preto Médio */
+}
+.c_sequencialBotaoVermelhoClicado {
+	color: #FF0000;
+	border: solid 0px #FF0000;
+	background-color: #FF0000;
+	text-align: right;
+}
+.c_sequencialBotaoAzulClicado {
+	color: #0000FF;
+	border: solid 0px #0000FF;
+	background-color: #0000FF;
+	text-align: right;
+}
+.c_sequencialBotaoPretoClicado {
+	color: #000000;
+	border: solid 0px #000000;
+	background-color: #000000;
+	text-align: right;
+}
