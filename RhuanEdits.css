@@ -54,6 +54,7 @@ table.red-table,
 table.blue-table,
 table.black-table {
 	width: 214px;
+	height: 320px;
 }
 table.red-table {
 	background-color: #FFE5E5; /* Vermelho Claro */
@@ -73,21 +74,9 @@ table.black-table {
 th#id_headerPreto {
 	background-color: #666666; /* Preto Médio */
 }
-.c_sequencialBotaoVC { /* Vermelho Clicado */
-	color: #FF0000;
-	border: solid 0px #FF0000;
-	background-color: #FF0000;
-	text-align: right;
-}
-.c_sequencialBotaoAC { /* Azul Clicado */
-	color: #0000FF;
-	border: solid 0px #0000FF;
-	background-color: #0000FF;
-	text-align: right;
-}
-.c_sequencialBotaoPC { /* Preto Clicado */
+.c_botao,
+.c_sequencialBotao {
+	background-color: #EEEEEE;
 	color: #000000;
-	border: solid 0px #000000;
-	background-color: #000000;
-	text-align: right;
+	border: 1px outset #000000;
 }
